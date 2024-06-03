@@ -1,0 +1,27 @@
+body {
+  font-family: "Robto";
+}
+.headingContainer {
+  background: red;
+  display: flex;
+  align-items: center;
+}
+.linkItem {
+  display: flex;
+  gap: 10px;
+}
+.linkItem a {
+  color: #f9faf8;
+  padding-left: 80px;
+}
+.textItem h2 {
+  background-color: rgb(197, 27, 27);
+  font-weight: 48px;
+  margin-right: 400px;
+  color: #f9faf8; /* Set font color to white */
+}
+
+.heroSection {
+  background-color: #1f2937;
+  color: #f9faf8; /* Set font color to white */
+}
