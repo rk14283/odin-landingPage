@@ -7,7 +7,7 @@ body {
 }
 
 .headingContainer {
-  background: rgb(226, 17, 87);
+  background-color: #1f2937;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,30 +17,158 @@ body {
 .headingLinks {
   margin-left: 400px;
 }
-a {
-  color: #f9faf8;
-}
+
 .headingLinks a {
+  color: #f9faf8;
   margin-left: 10px;
 }
 /*CSS for hero section*/
 .heroSection {
-  background-color: #1f2937;
+  background: #1f2937;
   display: flex;
   color: #f9faf8; /* Set font color to white */
   flex-direction: row;
   align-items: center;
   flex-basis: 400px;
-  flex-shrink: 0;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.logo {
+  margin-left: 200px;
+}
+.heroSection {
+  padding-left: 80px;
 }
 
+/*CSS for services section*/
+
 .servicesSection {
-  background-color: white;
-  flex-shrink: 0;
-  flex-basis: 200px;
+  background-color: #f9faf8;
+  flex-basis: 300px;
 }
-.callForActionSection {
+.serviceBoxes {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.webDevelopment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.webDevelopmentImage {
+  background-color: #f9faf8;
+  border: 2px groove blue;
+
+  height: 200px;
+  width: 150px; /* Adjust the width as needed */
+}
+.webDevelopmentText {
+  display: block;
+  text-align: center; /* Optional: Center-align the text */
+  margin-top: 10px;
+}
+.webDesign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.webDesignImage {
+  background-color: #f9faf8;
+  border: 2px groove blue;
+
+  height: 200px;
+  width: 150px; /* Adjust the width as needed */
+}
+.webDesignText {
+  display: block;
+  text-align: center; /* Optional: Center-align the text */
+  margin-top: 10px;
+}
+.SEO {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.SEOImage {
+  background-color: #f9faf8;
+  border: 2px groove blue;
+  height: 200px;
+  width: 150px; /* Adjust the width as needed */
+}
+.SEOText {
+  display: block;
+  text-align: center; /* Optional: Center-align the text */
+  margin-top: 10px;
+}
+
+.digitalMarketing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.digitalMarketingImage {
+  background-color: #f9faf8;
+  border: 2px groove blue;
+  height: 200px;
+  width: 150px; /* Adjust the width as needed */
+}
+.digitalMarketingText {
+  display: block;
+  text-align: center; /* Optional: Center-align the text */
+  margin-top: 10px;
+}
+/*Styling for testimonials section*/
+.testimonialsSection {
   background-color: #e5e7eb;
   flex-basis: 200px;
+}
+.testimonialsSection h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quoteBy {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.quoteBy p::before {
+  content: "- ";
+}
+
+.linkSection a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1em;
+}
+.linkSection a:hover {
+  text-decoration: underline;
+}
+/*Styling for call for action section*/
+.callForActionSection {
+  background-color: #f9faf8;
   flex-shrink: 0;
+  flex-basis: 50px;
+}
+.callForActionBox {
+  margin-top: 40px;
+  margin-right: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  height: 200px;
+  width: 400px;
 }
