@@ -1,5 +1,9 @@
 body {
   font-family: "Robto";
+  display: flex;
+
+  margin: 0; /* Remove default margin */
+  flex-direction: column;
 }
 .mainContainer {
   display: flex;
@@ -51,6 +55,9 @@ button {
 .servicesSection {
   background-color: #f9faf8;
   flex-basis: 300px;
+}
+.servicesHeading {
+  margin-left: 20px;
 }
 .serviceBoxes {
   background-color: #f9faf8;
@@ -134,16 +141,19 @@ button {
 .testimonialsSection h2 {
   font-size: 2em;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 .quote {
   font-size: 1.5em;
   font-style: italic;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .quoteBy {
   font-size: 1em;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .quoteBy p::before {
@@ -154,6 +164,7 @@ button {
   color: #000;
   text-decoration: none;
   font-size: 1em;
+  margin-left: 20px;
 }
 .linkSection a:hover {
   text-decoration: underline;
@@ -161,14 +172,36 @@ button {
 /*Styling for call for action section*/
 .callForActionSection {
   background-color: #f9faf8;
-  flex-shrink: 0;
+  display: flex;
   flex-basis: 50px;
+  flex-direction: row;
 }
 .callForActionBox {
+  display: flex;
   margin-top: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  padding-top: 20px;
   background-color: #3882f6;
   color: #f9faf8;
-  height: 200px;
-  width: 400px;
+  flex-direction: row;
+  height: 150px;
+  width: 850px;
+  align-items: center;
+  border-radius: 40px;
+}
+.actionText {
+  margin-left: 80px;
+}
+.actionButton {
+  margin-left: 200px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 10px;
 }
